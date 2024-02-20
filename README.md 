@@ -1,0 +1,47 @@
+
+Usage
+Initialize your module
+go mod init rt-external-api
+
+Get the go-lib module
+Note that you need to include the v in the version tag.
+
+go get github.com/banyar/frnt@v0.1.0
+
+
+Initialize the project for git:
+git init
+Add the files to git:
+Note that you need to include the period at the end of this command:
+git add .
+Commit the files
+git commit -m "init commit"
+Create the repo
+Go to your git cloud provider (like github) and create a new repo
+Follow the instructions of your provider for creating the new repo
+Example
+
+Here is an example of how I created a repo for my package using github:
+
+Browse to: https://github.com/new
+Repository name: lib
+Leave Public checked
+Click: Create repository
+Next github prints out some instructions.
+
+I followed the …or push an existing repository from the command line instructions.
+
+Those instruction will be adjusted for your username:
+https://github.com/banyar/frnt.git
+
+git remote add origin https://github.com/banyar/frnt.git
+git branch -M main
+git push -u origin main
+
+
+Tag the repo
+To publish different versions of your package you need to tag it like this:
+
+git tag v0.1.0 HEAD -m "Version v0.1.0 released"
+git tag v0.1.0
+git push origin --tags
