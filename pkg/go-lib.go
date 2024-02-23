@@ -33,3 +33,7 @@ func Test4() string {
 func Test5() string {
 	return "Hello Test 5"
 }
+
+func Test6() string {
+	return "Hello Test 6"
+}

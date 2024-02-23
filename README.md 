@@ -1,14 +1,3 @@
-
-Usage
-Initialize your module
-go mod init rt-external-api
-
-Get the go-lib module
-Note that you need to include the v in the version tag.
-
-go get github.com/banyar/frnt@v0.1.0
-
-
 Initialize the project for git:
 git init
 Add the files to git:
@@ -32,9 +21,7 @@ Next github prints out some instructions.
 I followed the …or push an existing repository from the command line instructions.
 
 Those instruction will be adjusted for your username:
-https://github.com/banyar/frnt.git
-
-git remote add origin https://github.com/banyar/frnt.git
+git remote add origin https://github.com/banyar/lib.git
 git branch -M main
 git push -u origin main
 
