@@ -81,3 +81,7 @@ func (r *CustomFieldRepository) GetCustomFieldIdByName(customFieldNames string) 
 func (r *CustomFieldRepository) Hello() string {
 	return "Hello World"
 }
+
+func (r *CustomFieldRepository) PyaePhyoAung() string {
+	return "Pyae Phyo Aung"
+}

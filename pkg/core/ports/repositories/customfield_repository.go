@@ -23,4 +23,7 @@ type CustomFieldRepository interface {
 			result, err := cfRepo.GetByNameList(customFieldNameList, 2)
 	*/
 	GetByNameList(customFieldNameList []string, isDisabled int8) (*entities.CustomFieldCollection, error)
+
+	Hello() string
+	PyaePhyoAung() string
 }

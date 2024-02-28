@@ -29,6 +29,6 @@ git push -u origin main
 Tag the repo
 To publish different versions of your package you need to tag it like this:
 
+git tag -d v0.1.0
 git tag v0.1.0 HEAD -m "Version v0.1.0 released"
-git tag v0.1.0
 git push origin --tags
