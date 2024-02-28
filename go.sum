@@ -1,5 +1,5 @@
-git.frontiir.net/sa-dev/rtdatacore v0.1.2 h1:wmHUCU/atENIBW6YEbMHwVHC/MSThTIJaoAjK3HXYRs=
-git.frontiir.net/sa-dev/rtdatacore v0.1.2/go.mod h1:TphyLOCwaxtQFqKfXAhH0An5s9qXcj0SF4XZimV9LMI=
+github.com/banyar/lib v0.1.2 h1:wmHUCU/atENIBW6YEbMHwVHC/MSThTIJaoAjK3HXYRs=
+github.com/banyar/lib v0.1.2/go.mod h1:TphyLOCwaxtQFqKfXAhH0An5s9qXcj0SF4XZimV9LMI=
 github.com/banyar/lib v0.1.0 h1:fTpDgUW6/JTEA9NVVclPDLbyf3nZlVo5DtrnB+Fx2pY=
 github.com/banyar/lib v0.1.0/go.mod h1:cfLP3ER/JGyAcNCm2j1mxH5A7v21qtIfI92uPbdv2Jc=
 github.com/go-sql-driver/mysql v1.7.0 h1:ueSltNNllEqE3qcWBTD0iQd3IpL/6U+mJxLkazJ7YPc=
