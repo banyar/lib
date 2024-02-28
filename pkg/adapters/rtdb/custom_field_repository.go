@@ -77,3 +77,7 @@ func (r *CustomFieldRepository) GetCustomFieldIdByName(customFieldNames string) 
 	}
 	return customField, nil
 }
+
+func (r *CustomFieldRepository) Hello() string {
+	return "Hello World"
+}
